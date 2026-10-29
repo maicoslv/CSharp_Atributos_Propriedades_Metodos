@@ -1,0 +1,14 @@
+namespace ExercicioProduto
+{
+    public class Produto
+    {
+        public string Nome { get; set; }
+        public decimal Preco { get; private set;}
+
+        public Produto (string nome, decimal, preco)
+        {
+            Nome = nome;
+            Preco = preco;
+        }
+    }
+}
